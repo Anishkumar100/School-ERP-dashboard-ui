@@ -1,0 +1,36 @@
+so, what we did was we forked a next.js project to make everything simple.
+
+Now lets start with Admin Dashboard and get on with the other dashboards
+
+
+we are planning to create 4 dashboards
+1. Student
+2. Parent
+3. Teachers
+4. Admin
+
+And i think its important we create a 5th one
+
+(1) Important thing to note, i did a big mistake at the beginning. So, u should always keep ur ui i.e:- the frontend inside the app folder
+
+(2) For Better Construction i have placed wvery single page inside the dashboard folder and kept the layout.tsx to be the common layout for all the stakeholders.
+
+And the entire dashboard's layout is commonly used in layout.tsx in dashboard folder. it will contain 2 partitions 1 the sideBar and the right side the actual dashboard.
+
+Now, as u know all the href's are given in the menu, u need not worry about the routing.
+And start with menu and go to navbar from the left side. And when the navBar and the sideBar is done start with the right side.
+
+
+------------------------------------------------------------------------------------------------
+
+Right parts of the dashboard:-
+
+The Right part of the dashboard is split into 2 parts again left and right. 
+
+Left to show stats in charts and right containing calenders and other stuff.
+
+Now, lets start with the left side of the Right part of the dashboard from Admin pov. In here we need charts thus, we installed and used recharts. just copy past the code.
+
+so, the 1st chart we used is SimpleRadialBarChart in a component called CountChart.tsx . Here the chart construction was very easy. First search this chart's name in recharts and copy past the whole thing .just take out some values with the help of chatgpt and u are good to go.
+
+and now we are going to create the chart for attendance. in the attendanceChart.tsx

@@ -14,6 +14,17 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors:{
+      sparkSky:"#C3EBFA",
+      sparkSkyLight:"#EDF9FD",
+      sparkPurple:"#CFCEFF",
+      sparkPurpleLight:"#F1F0FF",
+      sparkYellow:"#FAE27C",
+      sparkYellowLight:"#FEFCE8",
+      sparkGreen600:"#43A047",
+      sparkGray500:"#9E9E9E",
+      sparkTransparent:"#00000000"
+    }
   },
   plugins: [],
 };
